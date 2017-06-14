@@ -1,0 +1,14 @@
+{
+	"manifest_version": 2,
+	"name": "addon_ucursos",
+	"version": "1.0",
+
+	"description": "Addon para Ucursos",
+
+	"content_scripts": [
+		{
+			"matches": ["*://*.u-cursos.cl/*foro*"],
+			"js": ["foro.js"]
+		}
+	]
+}
